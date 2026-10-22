@@ -1,0 +1,4 @@
+adb devices
+npm start
+npm run android -- --active-arch-only
+./gradlew :app:assembleDebug --no-daemon --max-workers=1
